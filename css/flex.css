@@ -1,0 +1,42 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  max-width: 1300px;
+  margin: 0 auto;
+  background: green;
+  height: 200px;
+
+}
+
+/* parent container */
+.parent-container {
+  max-width: 1300px;
+  margin: 30px auto;
+  background: #fff;
+  display: flex;
+}
+
+.side-one {
+  background: pink;
+  flex: 1;
+  order: 3;
+}
+.main-article {
+  background: purple;
+  flex: 1;
+  order: 1;
+}
+.latest-news {
+  background: saddlebrown;
+  flex: 1;
+  order: 2;
+}
+.side-one,
+.main-article,
+.latest-news {
+  padding: 10px 20px;
+}

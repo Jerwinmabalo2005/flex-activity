@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        max-width: 1000px;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 500px;
+        height: 500px;
+        border-radius: 100%;
+      }
+      .box3 {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border-radius: 100px;
+      }
+      .box1 {
+        width: 150px;
+        height: 150px;
+        background-color: magenta;
+        border-radius: 100px;
+        position: absolute;
+      }
+      .box2 {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        border-radius: 100px;
+        position: absolute;
+      }
+      .navbar {
+        max-width: 500px;
+        height: 500px;
+      }
+      .list {
+        text-decoration: none;
+        display: flex;
+        background-color: bisque;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+    </div>
+
+    <nav class="navbar">
+      <ul class="list">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Events</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
